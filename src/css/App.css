@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+html {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url('https://cdn.discordapp.com/attachments/960914541837959208/984146054121410660/fondoweb.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position:absolute;
+    margin-top:80px;
+
+}
+
+* {
+    font-family: 'Inter';
+}
+
+.navbar {
+    position: static;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+    width: 1000px;
+    height: 30px;
+    margin-top: -80px;
+
+    color: white;
+    background: #1e1e1e;
+    border-radius: 20px;
+    border: 0px solid white;
+}
+
+.navbar-brand {
+    flex: 0 0 60px;
+}
+
+.twitter {
+    position: absolute;
+    text-decoration: none !important;
+    color: #FFFFFF;
+    margin-left: 790px;
+    font-size:25px;
+}
+
+.discord{
+    position: absolute;
+    text-decoration: none !important;
+    color: #FFFFFF;
+    margin-left: 900px;
+    font-size: 25px;
+}
+
+.texto-raro {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.tarjetapruba {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 1760px;
+    height: 216.88px;
+    padding: 20px;
+    color: white;
+    background-image: url('https://cdn.discordapp.com/attachments/960914541837959208/984476985558454324/Group_2_3.png');
+    border: 0px solid white;
+    border-radius: 40px;
+    margin-top: 90px;
+}
+
+.dragondetalles {
+    display: table;
+}
+
+.tarjeta-avatar {
+    border-radius: 100%;
+    width: 60px;
+    margin-right: 10px;
+}
+
+.tarjeta-avatar, .tarjeta-nombre {
+    vertical-align: middle;
+    display: table-cell;
+}
+/* ========= */
+
+.tarjeta-detalles .tarjeta-nombre {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.tarjeta-status-on {
+    position:absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 100px;
+    display: inline-block;
+    background-color: rgb(88, 193, 125);
+    margin-left: 225px;
+    margin-top: -29px;
+}
+
+.tarjeta-status-idle {
+    position:absolute;
+    margin-left: 225px;
+    margin-top: -29px;
+    width: 11px;
+    height: 11px;
+    border-radius: 100px;
+    display: inline-block;
+    background-color: rgb(246, 218, 81); 
+}
+
+.tarjeta-status-off {
+    position:absolute;
+    margin-left: 225px;
+    margin-top: -29px;
+    width: 11px;
+    height: 11px;
+    border-radius: 100px;
+    display: inline-block;
+    background-color: rgb(92, 92, 92); 
+}
+
+.tarjeta-status-no-molestar {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 100px;
+    display: inline-block;
+    background-color: rgb(246, 81, 81); 
+    margin-left: 225px;
+    margin-top: -29px;
+}
+
+.ubicaciontexto {
+    position:absolute;
+    color: rgb(88, 101, 242);
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.ubicacionimagen {
+    position: absolute;
+    width: 14px;
+    height: 19px;
+    margin-top: -12px;
+    margin-left:-3px;
+}
+.texto-raro{
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+.activity .x-title {
+    position: absolute;
+    display: block;
+    font-weight: bold;
+    margin-left: 500px;
+    margin-top: 70px;
+}
+
+.activity .x-subtitle {
+    position: absolute;
+    font-size: 15px;
+    line-height: 5px;
+    margin-left: 500px;
+    margin-top: 105px;
+}
+
+.presentacion {
+    position: absolute;
+    color:#FFFFFF;
+    margin-top: -10px;
+    margin-left: 7px;
+}
+.spotifyimg{
+    position:absolute;
+    height: 80px;
+    width: 80px;
+    margin-top: 55px;
+    border-radius: 20px;
+    margin-left: 400px;
+}
+.tarjeta-nombre{
+    position:absolute;
+    margin-left: 80px;
+    margin-top: -35px;
+}
+
+.localizacion{
+    position:absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+    color: rgb(88, 101, 242);
+}
+.textoffline{
+    position: absolute;
+    margin-top: 35px;
+}
+
+.imagenoffline{
+    position:absolute;
+    width: 200px;
+    height: 100px;
+    margin-top: 65px;
+    margin-left: -3px;
+    border-radius:20px;
+}
+.activitytexto{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 100px;
+
+}
+.activitytexto{
+    position:absolute;
+    color: white;
+    margin-top: 70px;
+}
+
+.activitydetales{
+    position:absolute;
+    color:white;
+    margin-top: 105px;
+    margin-left: 100px;
+}
+
+.activityimg{
+    position: absolute;
+    width: 80px;
+    height: 80px; 
+    margin-top: 55px;
+    border-radius: 20px;
+    
+}  
+
+.actividades{
+    position: absolute;
+}
+
+.proyectos{
+    position:absolute;
+    color:#FFFFFF;
+    margin-top: 400px;
+}
+
+.dasktales{
+    position:absolute;
+    background-color: #1e1e1e;
+    border-radius:20px;
+    margin-top: 480px;
+    width:300px;
+    height: 400px;
+}
+.dasktalestext{
+    color: #FFFFFF;
+    margin-left: 65px;
+}
+.dasktalestext2{
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: -30px;
+    font:inherit;
+}
+
+.dasktalesimg{
+    width:90px;
+    height: 90px;
+    border-radius: 20px;
+    margin-left: 95px;
+    margin-top: 5px;
+}
+
+.menu1{
+    position:absolute;
+    background-color:#2c2f33 ;
+    border-radius: 10px;
+    width: 150px;
+    height: 75px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.menutexto1{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 23px;
+    margin-top:25px;
+    margin-left: 23px;
+}
+
+.quastraltext{
+    position: absolute;
+    color: #FFFFFF;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.quastraltext2{
+    position: absolute;
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 130px;
+    font:inherit;
+}
+.quastral{
+    position:absolute;
+    background-color: #1e1e1e;
+    border-radius:20px;
+    margin-top: 480px;
+    margin-left: 400px;
+    width:300px;
+    height: 400px;
+}
+
+.quastralimg{
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    margin-top: -13px;
+}
+
+.menu3{
+    position: absolute;
+    background-color: #2c2f33;
+    border-radius: 10px;
+    width: 150px;
+    height: 75px;
+    margin-left: 75px;
+    margin-top: 235px;
+}
+
+.menutexto3{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 23px;
+    margin-top:25px;
+    margin-left: 25px;
+}
+
+.discusslab{
+    position:absolute;
+    background-color: #1e1e1e;
+    border-radius:20px;
+    margin-top: 480px;
+    margin-left: 800px;
+    width:300px;
+    height: 400px;
+}
+
+.discusslabtext{
+    position: absolute;
+    color: #FFFFFF;
+    margin-left: 80px;
+    margin-top: 110px;
+}
+
+.discusslabtext2{
+    position: absolute;
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 160px;
+    font:inherit;
+}
+
+.discusslabimg{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-left: 95px;
+    margin-top: 5px;
+}
+
+.menu2{
+    position:absolute;
+    background-color:#2c2f33 ;
+    border-radius: 10px;
+    width: 150px;
+    height: 75px;
+    margin-left: 75px;
+    margin-top: 275px;
+}
+
+.menutexto2{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 23px;
+    margin-top:25px;
+    margin-left: 25px;
+}
+
+.activopc{
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 245px;
+}
+
+.activomovil{
+    position: absolute;
+    margin-top: -px;
+    margin-left: 275px;
+}
