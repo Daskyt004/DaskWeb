@@ -53,7 +53,7 @@ function App() {
 
       <div className="discusslab">
         <h2 className="discusslabtext">DiscussLab</h2>
-        <img src="https://cdn.discordapp.com/attachments/985968201068326973/986285390010925056/DiscussLab_Color.png" className="discusslabimg"></img>
+        <img src="https://cdn.discordapp.com/attachments/985968201068326973/986285390010925056/DiscussLab_Color.png" className="discusslabimg" alt="discusslab"></img>
         <h3 className="discusslabtext2">DiscussLab is a project based on simulation of judgments and discussion by the more realistic way between Discord users.</h3>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer">
           <div className="menu2"><p className="menutexto2">More info</p></div>
