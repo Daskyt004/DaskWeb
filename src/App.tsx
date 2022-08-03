@@ -32,7 +32,7 @@ function App() {
 
       <br />
       <h3 className='presentacion'>
-        I'm a 14-year-old <b>writer</b> and <b>developer novice</b> from Madrid,
+        <b>Writer</b> and <b>developer novice</b> from Madrid,
         Spain.
         <br />
         +1 year of experience as a <b>writer</b>.<br /> Learning <b>Python</b>,{' '}
